@@ -44,7 +44,7 @@ function main() {
       },
       CFG = {
         pads: 0,
-        isAll: true, // Fit to all empty artboards
+        isAll: false, // Fit to all empty artboards
         isVisBnds: preferences.getBooleanPreference('includeStrokeInBounds'), // Visual bounds
         isFit: true, // Resize selection
         isRename: false, // Rename artboards as items
